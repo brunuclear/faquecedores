@@ -1,0 +1,10 @@
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+
+.setfooter, .push {
+	height: 155px; /* .push must be the same height as .footer */
+}
