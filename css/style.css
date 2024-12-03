@@ -389,11 +389,11 @@ a.alertaimg{
 .top-menu {
   float: right;
 }
-.logo a img{
-  /* width: 20.27%; */
-  z-index: 9999;
-  position: absolute;
-  margin-top: 0px;
+.logo a img {
+    max-width: 100%; /* Garante que o logo seja responsivo */
+    height: auto; /* Mantém as proporções da imagem */
+    width: 150px; /* Ajuste conforme o tamanho desejado */
+}
 }
 .banner-bottom-strip {
   background: #0ACF66;
@@ -406,8 +406,9 @@ a.alertaimg{
 }
 .navbar-brand {
     float: left;
-    height: 0px;
-    padding: 0px 0;
+    height: auto; /* Permite que a altura se ajuste automaticamente ao conteúdo */
+    padding: 10px; /* Adicione espaço ao redor do logo para um posicionamento melhor */
+}
 }
 .posic-menu {
 	float: right;
@@ -478,7 +479,7 @@ ul.nav.navbar-nav li a.active {
 	background-color: #000;  /* #3f67bf */
 	padding-bottom: 1px;
 	border-bottom-width: 1px;
-	border-bottom-color: #ff0000;
+	border-bottom-color: #1a93f7;
 	border-bottom-style: solid;
 }
 .dropdown-menu {
