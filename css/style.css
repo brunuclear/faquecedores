@@ -5,7 +5,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 	margin:0;
 	padding:0;
-	background-color: #2e2e2e;
+	background-color: #2e2e2e; /*Colorsite 2e2e2e  */
 	min-height: 100%;
 }
 body a{
@@ -26,7 +26,7 @@ margin:0;
 padding: 0;
 }
 label {
-    color: #FFCC00;
+    color: #FFCC00; /*Colorsite FFCC00  */ 
     display: inline-block;
     max-width: 100%;
 	font-size: 1.05em;
@@ -8057,3 +8057,18 @@ h5.typ1{
 		padding-top: 20px;
 	}
 }
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px; /* Distância da parte inferior */
+    right: 20px; /* Distância do lado direito */
+    z-index: 1000; /* Para que fique acima de outros elementos */
+    cursor: pointer;
+}
+
+.whatsapp-float img {
+    width: 60px; /* Tamanho do botão */
+    height: 60px; /* Tamanho do botão */
+    border-radius: 10%; /* Deixa o botão redondo */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+}
+
